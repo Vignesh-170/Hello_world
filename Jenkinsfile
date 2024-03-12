@@ -1,10 +1,10 @@
 pipeline {
     agent any
     triggers {
-      scm {
+      scm
         // Configuration options for triggering on push events
         includes("main") // This triggers on any branch push
-      }
+
     }
     stages {
         stage('Run Hello World Script') {
