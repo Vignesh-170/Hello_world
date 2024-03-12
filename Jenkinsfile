@@ -2,7 +2,7 @@ pipeline {
     agent any
     triggers {
       scm {
-        # Configuration options for triggering on push events
+        // Configuration options for triggering on push events
         includes("*") // This triggers on any branch push
       }
     }
