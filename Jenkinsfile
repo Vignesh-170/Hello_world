@@ -3,7 +3,7 @@ pipeline {
     triggers {
       scm {
         // Configuration options for triggering on push events
-        includes("*") // This triggers on any branch push
+        includes("main") // This triggers on any branch push
       }
     }
     stages {
